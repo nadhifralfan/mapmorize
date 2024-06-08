@@ -1,0 +1,26 @@
+{
+  "configurations" : [
+    {
+      "id" : "54DE1435-407C-4D0E-9F80-3E69F634A320",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "locationScenario" : {
+      "identifier" : "..\/..\/gpxgenerator_path.gpx"
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MapAppTest.xcodeproj",
+      "identifier" : "4C8C820C2BF5AB970009D3CF",
+      "name" : "MapAppTest"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

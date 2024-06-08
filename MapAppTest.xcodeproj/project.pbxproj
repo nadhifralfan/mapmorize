@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8C82112BF5AB970009D3CF /* MapAppTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C82102BF5AB970009D3CF /* MapAppTestApp.swift */; };
+		4C8C82132BF5AB970009D3CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C82122BF5AB970009D3CF /* ContentView.swift */; };
+		4C8C82152BF5AB990009D3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C82142BF5AB990009D3CF /* Assets.xcassets */; };
+		4C8C82182BF5AB990009D3CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C82172BF5AB990009D3CF /* Preview Assets.xcassets */; };
+		4C8C82232BF5F6BA0009D3CF /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C82222BF5F6BA0009D3CF /* MusicManager.swift */; };
+		4C94823C2BFA424B00702839 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94823B2BFA424B00702839 /* PhotoPicker.swift */; };
+		4C9482432BFA673C00702839 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9482422BFA673C00702839 /* SlideOverCard.swift */; };
+		4C9482452BFA784100702839 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9482442BFA784100702839 /* Handle.swift */; };
+		4C9482472BFB826C00702839 /* AddMemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9482462BFB826C00702839 /* AddMemoryView.swift */; };
+		4C9482492BFB929E00702839 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9482482BFB929E00702839 /* LocationSearchView.swift */; };
+		4C94824B2BFB950000702839 /* SearchLocationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94824A2BFB950000702839 /* SearchLocationSheet.swift */; };
+		4C94824D2BFB967900702839 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94824C2BFB967900702839 /* LocationService.swift */; };
+		4C9CBB982BF7460C000F933A /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CBB972BF7460C000F933A /* GeoLocation.swift */; };
+		4C9CBB9A2BF74B5A000F933A /* MemoryLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CBB992BF74B5A000F933A /* MemoryLocation.swift */; };
+		4C9CBB9D2BF7523E000F933A /* SidebarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CBB9C2BF7523E000F933A /* SidebarCardView.swift */; };
+		4C9CBBA12BF752D9000F933A /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CBBA02BF752D9000F933A /* MemoryCardView.swift */; };
+		4C9CBBA32BF7638D000F933A /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CBBA22BF7638D000F933A /* MusicPlayerView.swift */; };
+		4CD0017E2BFD0FD50096F634 /* PhotoSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0017D2BFD0FD50096F634 /* PhotoSliderView.swift */; };
+		4CD001822BFD69FA0096F634 /* SearchSongSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD001812BFD69FA0096F634 /* SearchSongSheet.swift */; };
+		4CD001852BFE89D60096F634 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD001842BFE89D60096F634 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C8C820D2BF5AB970009D3CF /* MapAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8C82102BF5AB970009D3CF /* MapAppTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppTestApp.swift; sourceTree = "<group>"; };
+		4C8C82122BF5AB970009D3CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C8C82142BF5AB990009D3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C8C82172BF5AB990009D3CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C8C82222BF5F6BA0009D3CF /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		4C94823B2BFA424B00702839 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		4C9482422BFA673C00702839 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		4C9482442BFA784100702839 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		4C9482462BFB826C00702839 /* AddMemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoryView.swift; sourceTree = "<group>"; };
+		4C9482482BFB929E00702839 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		4C94824A2BFB950000702839 /* SearchLocationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationSheet.swift; sourceTree = "<group>"; };
+		4C94824C2BFB967900702839 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4C9CBB972BF7460C000F933A /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		4C9CBB992BF74B5A000F933A /* MemoryLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLocation.swift; sourceTree = "<group>"; };
+		4C9CBB9C2BF7523E000F933A /* SidebarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarCardView.swift; sourceTree = "<group>"; };
+		4C9CBBA02BF752D9000F933A /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		4C9CBBA22BF7638D000F933A /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		4CD0017D2BFD0FD50096F634 /* PhotoSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSliderView.swift; sourceTree = "<group>"; };
+		4CD001812BFD69FA0096F634 /* SearchSongSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSongSheet.swift; sourceTree = "<group>"; };
+		4CD001832BFE86800096F634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4CD001842BFE89D60096F634 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		4CD001872BFE9BD30096F634 /* MapAppTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MapAppTest.xctestplan; sourceTree = "<group>"; };
+		4CF55BC02C12A53400578D62 /* ADA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ADA.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C8C820A2BF5AB970009D3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C8C82042BF5AB970009D3CF = {
+			isa = PBXGroup;
+			children = (
+				4CF55BC02C12A53400578D62 /* ADA.gpx */,
+				4CD001872BFE9BD30096F634 /* MapAppTest.xctestplan */,
+				4C8C820F2BF5AB970009D3CF /* MapAppTest */,
+				4C8C820E2BF5AB970009D3CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8C820E2BF5AB970009D3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C820D2BF5AB970009D3CF /* MapAppTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C8C820F2BF5AB970009D3CF /* MapAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				4CD001832BFE86800096F634 /* Info.plist */,
+				4C9CBB9F2BF752BF000F933A /* View */,
+				4C9CBB9B2BF75207000F933A /* ViewModel */,
+				4C8C821E2BF5F5A40009D3CF /* Model */,
+				4C8C82102BF5AB970009D3CF /* MapAppTestApp.swift */,
+				4C8C82122BF5AB970009D3CF /* ContentView.swift */,
+				4C8C82142BF5AB990009D3CF /* Assets.xcassets */,
+				4C8C82162BF5AB990009D3CF /* Preview Content */,
+			);
+			path = MapAppTest;
+			sourceTree = "<group>";
+		};
+		4C8C82162BF5AB990009D3CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C82172BF5AB990009D3CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C8C821E2BF5F5A40009D3CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C82222BF5F6BA0009D3CF /* MusicManager.swift */,
+				4C9CBB972BF7460C000F933A /* GeoLocation.swift */,
+				4C9CBB992BF74B5A000F933A /* MemoryLocation.swift */,
+				4C94823B2BFA424B00702839 /* PhotoPicker.swift */,
+				4C94824C2BFB967900702839 /* LocationService.swift */,
+				4CD001842BFE89D60096F634 /* NotificationManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C9CBB9B2BF75207000F933A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C9482422BFA673C00702839 /* SlideOverCard.swift */,
+				4C9482442BFA784100702839 /* Handle.swift */,
+				4CD001812BFD69FA0096F634 /* SearchSongSheet.swift */,
+				4C94824A2BFB950000702839 /* SearchLocationSheet.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C9CBB9F2BF752BF000F933A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C9CBB9C2BF7523E000F933A /* SidebarCardView.swift */,
+				4C9CBBA02BF752D9000F933A /* MemoryCardView.swift */,
+				4C9CBBA22BF7638D000F933A /* MusicPlayerView.swift */,
+				4C9482462BFB826C00702839 /* AddMemoryView.swift */,
+				4C9482482BFB929E00702839 /* LocationSearchView.swift */,
+				4CD0017D2BFD0FD50096F634 /* PhotoSliderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C8C820C2BF5AB970009D3CF /* MapAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8C821B2BF5AB990009D3CF /* Build configuration list for PBXNativeTarget "MapAppTest" */;
+			buildPhases = (
+				4C8C82092BF5AB970009D3CF /* Sources */,
+				4C8C820A2BF5AB970009D3CF /* Frameworks */,
+				4C8C820B2BF5AB970009D3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapAppTest;
+			packageProductDependencies = (
+			);
+			productName = MapAppTest;
+			productReference = 4C8C820D2BF5AB970009D3CF /* MapAppTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C8C82052BF5AB970009D3CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4C8C820C2BF5AB970009D3CF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C8C82082BF5AB970009D3CF /* Build configuration list for PBXProject "MapAppTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C8C82042BF5AB970009D3CF;
+			packageReferences = (
+			);
+			productRefGroup = 4C8C820E2BF5AB970009D3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C8C820C2BF5AB970009D3CF /* MapAppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C8C820B2BF5AB970009D3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8C82182BF5AB990009D3CF /* Preview Assets.xcassets in Resources */,
+				4C8C82152BF5AB990009D3CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C8C82092BF5AB970009D3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9CBBA12BF752D9000F933A /* MemoryCardView.swift in Sources */,
+				4C9CBB982BF7460C000F933A /* GeoLocation.swift in Sources */,
+				4CD001852BFE89D60096F634 /* NotificationManager.swift in Sources */,
+				4C9482472BFB826C00702839 /* AddMemoryView.swift in Sources */,
+				4C9CBB9D2BF7523E000F933A /* SidebarCardView.swift in Sources */,
+				4C9CBB9A2BF74B5A000F933A /* MemoryLocation.swift in Sources */,
+				4CD0017E2BFD0FD50096F634 /* PhotoSliderView.swift in Sources */,
+				4C8C82132BF5AB970009D3CF /* ContentView.swift in Sources */,
+				4C9482492BFB929E00702839 /* LocationSearchView.swift in Sources */,
+				4C8C82232BF5F6BA0009D3CF /* MusicManager.swift in Sources */,
+				4CD001822BFD69FA0096F634 /* SearchSongSheet.swift in Sources */,
+				4C9482432BFA673C00702839 /* SlideOverCard.swift in Sources */,
+				4C94824D2BFB967900702839 /* LocationService.swift in Sources */,
+				4C9CBBA32BF7638D000F933A /* MusicPlayerView.swift in Sources */,
+				4C94824B2BFB950000702839 /* SearchLocationSheet.swift in Sources */,
+				4C94823C2BFA424B00702839 /* PhotoPicker.swift in Sources */,
+				4C8C82112BF5AB970009D3CF /* MapAppTestApp.swift in Sources */,
+				4C9482452BFA784100702839 /* Handle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C8C82192BF5AB990009D3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C8C821A2BF5AB990009D3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8C821C2BF5AB990009D3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MapAppTest/Preview Content\"";
+				DEVELOPMENT_TEAM = KK835KRLS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapAppTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mapmorize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Please allow acces to continue";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadhif.MapAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C8C821D2BF5AB990009D3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MapAppTest/Preview Content\"";
+				DEVELOPMENT_TEAM = KK835KRLS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapAppTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mapmorize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Please allow acces to continue";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadhif.MapAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C8C82082BF5AB970009D3CF /* Build configuration list for PBXProject "MapAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8C82192BF5AB990009D3CF /* Debug */,
+				4C8C821A2BF5AB990009D3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8C821B2BF5AB990009D3CF /* Build configuration list for PBXNativeTarget "MapAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8C821C2BF5AB990009D3CF /* Debug */,
+				4C8C821D2BF5AB990009D3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C8C82052BF5AB970009D3CF /* Project object */;
+}
